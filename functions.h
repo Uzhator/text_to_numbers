@@ -8,21 +8,21 @@
 #include <math.h>
 #include <limits.h>
 
-// Позиция символа в векторе
+// ╨Я╨╛╨╖╨╕╤Ж╨╕╤П ╤Б╨╕╨╝╨▓╨╛╨╗╨░ ╨▓ ╨▓╨╡╨║╤В╨╛╤А╨╡
 int getPos(std::vector<char>&, char&);
-// Считывание текста
+// ╨б╤З╨╕╤В╤Л╨▓╨░╨╜╨╕╨╡ ╤В╨╡╨║╤Б╤В╨░
 void getText(std::vector<char>&, std::vector<unsigned long long int>&, unsigned long long int&);
-// Кодирование
+// ╨Ъ╨╛╨┤╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡
 void encoding(std::vector<unsigned long long int>&, std::vector<unsigned long long int>&, unsigned long long int&);
-// Кодирование со статическим ключём (выбор 2)
+// ╨Ъ╨╛╨┤╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡ ╤Б╨╛ ╤Б╤В╨░╤В╨╕╤З╨╡╤Б╨║╨╕╨╝ ╨║╨╗╤О╤З╤С╨╝ (╨▓╤Л╨▒╨╛╤А 2)
 void encodingText(std::vector<unsigned long long int>&, std::vector<char>&, unsigned long long int&);
-// Вывод хэша и ключа
+// ╨Т╤Л╨▓╨╛╨┤ ╤Е╤Н╤И╨░ ╨╕ ╨║╨╗╤О╤З╨░
 void outHashAndKey(std::vector<unsigned long long int>&, std::vector<char>&);
-// Получение ключа
+// ╨Я╨╛╨╗╤Г╤З╨╡╨╜╨╕╨╡ ╨║╨╗╤О╤З╨░
 void getKey(std::vector<char>&, std::ifstream&);
-// Получение хэша
+// ╨Я╨╛╨╗╤Г╤З╨╡╨╜╨╕╨╡ ╤Е╤Н╤И╨░
 void getHash(std::vector<unsigned long long int>&);
-// Раскодировка
+// ╨а╨░╤Б╨║╨╛╨┤╨╕╤А╨╛╨▓╨║╨░
 void decoding(std::vector<unsigned long long int>&, std::vector<char>&);
 
 #endif
